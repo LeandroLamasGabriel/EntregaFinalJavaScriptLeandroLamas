@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body header {
+  background-color: #454545;
+}
+body header nav {
+  text-align: center;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body header nav a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 30px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body main.Productos {
+  padding: 20px;
+}
+body main.Productos div.Productos {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body main.Productos div.Productos div.card img {
+  width: 90%;
+  height: 90%;
+}
+body main.Productos div.Productos div.card-body a.btn:hover {
+  background-color: #00eb04;
+  border-color: #00eb04;
+}
+
+/*# sourceMappingURL=style.css.map */

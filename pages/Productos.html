@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="Productos.html"> Categorias </a>
+            <a href="#" id="carrito"> Ver Carrito </a>
+            <div id="filtrado">
+                <input placeholder="Nombre" id="input">
+                <input placeholder="Precio minimo" id="precioMenor">
+                <input placeholder="Precio maximo" id="precioMayor">
+                <button id="botonBuscar" class="btn btn-primary">BUSCAR</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="Productos">
+        <div class="Productos row " id="Productos">
+            <div class="card" style="width: 18rem; padding: 20px">
+                <img src="../Images/Ryzen.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Ryzen</h5>
+                    <p class="card-text text-center">Ver Procesadores de la gama Ryzen</p>
+                    <a href="#" class="btn btn-primary container" id="Procesadores-Ryzen">Ver</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; padding: 20px">
+                <img src="../Images/Intel.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Intel</h5>
+                    <p class="card-text text-center">Ver Procesadores de la gama Intel</p>
+                    <a href="#" class="btn btn-primary container" id="Procesadores-Intel">Ver</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; padding: 20px">
+                <img src="../Images/Ram.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Memorias Ram</h5>
+                    <p class="card-text text-center">Ver los diferentes tipos y velocidades de memorias ram</p>
+                    <a href="#" class="btn btn-primary container" id="Memoria-Ram">Ver</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; padding: 20px">
+                <img src="../Images/HDD.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Discos HDD</h5>
+                    <p class="card-text text-center">Ver las diferentes capacidades de 500gb en adelante</p>
+                    <a href="#" class="btn btn-primary container" id="HDD">Ver</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="../script.js"></script>
+
+    <!-- Funcionalidades de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
