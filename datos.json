@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ryzen 3",
+        "categoria": "Procesadores-Ryzen",
+        "stock": 10,
+        "precio": 30000,
+        "url": "../images/Ryzen3.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Ryzen 5",
+        "categoria": "Procesadores-Ryzen",
+        "stock": 8,
+        "precio": 50000,
+        "url": "../images/Ryzen5.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Ryzen 7",
+        "categoria": "Procesadores-Ryzen",
+        "stock": 5,
+        "precio": 70000,
+        "url": "../images/Ryzen7.jfif"
+    },
+    {
+        "id": 7,
+        "nombre": "Kingston 8gb",
+        "categoria": "Memoria-Ram",
+        "stock": 10,
+        "precio": 8000,
+        "url": "../images/Ram8.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Kingston 16gb",
+        "categoria": "Memoria-Ram",
+        "stock": 8,
+        "precio": 16000,
+        "url": "../images/Ram16.jfif"
+    },
+    {
+        "id": 11,
+        "nombre": "Kingston 32gb",
+        "categoria": "Memoria-Ram",
+        "stock": 5,
+        "precio": 32000,
+        "url": "../images/Ram32.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Disco Duro 500gb",
+        "categoria": "HDD",
+        "stock": 10,
+        "precio": 5000,
+        "url": "../images/HDD500.jfif"
+    },
+    {
+        "id": 15,
+        "nombre": "Disco Duro 1TB",
+        "categoria": "HDD",
+        "stock": 8,
+        "precio": 10000,
+        "url": "../images/HDD1TB.jfif"
+    },
+    {
+        "id": 17,
+        "nombre": "Disco Duro 2TB",
+        "categoria": "HDD",
+        "stock": 5,
+        "precio": 20000,
+        "url": "../images/HDD2TB.jpeg"
+    },
+    {
+        "id": 19,
+        "nombre": "Intel i3",
+        "categoria": "Procesadores-Intel",
+        "stock": 10,
+        "precio": 30000,
+        "url": "../images/Intel3.jfif"
+    },
+    {
+        "id": 21,
+        "nombre": "Intel i5",
+        "categoria": "Procesadores-Intel",
+        "stock": 8,
+        "precio": 50000,
+        "url": "../images/Intel5.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Intel i7",
+        "categoria": "Procesadores-Intel",
+        "stock": 5,
+        "precio": 70000,
+        "url": "../images/Intel7.jpg"
+    }
+]
